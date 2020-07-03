@@ -11,9 +11,7 @@ targetCompatibility = JavaVersion.VERSION_1_8
 
 dependencies {
     def lint_version = '27.0.0'
-
-    implementation fileTree(dir: "libs", include: ["*.jar"])
-
+    
     // kotlin
     compileOnly "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
 
