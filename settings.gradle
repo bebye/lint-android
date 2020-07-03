@@ -1,2 +1,2 @@
-include ':app'
+include ':lint'
 rootProject.name = "lint-android"
